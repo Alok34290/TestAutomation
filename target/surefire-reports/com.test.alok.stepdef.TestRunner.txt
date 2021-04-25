@@ -1,0 +1,73 @@
+-------------------------------------------------------------------------------
+Test set: com.test.alok.stepdef.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 3.408 sec <<< FAILURE!
+Verify one author of the post(Verify different GET operations)  Time elapsed: 0.316 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "The endpoint is up and running for "https://jsonplaceholder.typicode.com/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("The endpoint is up and running for {string}")
+public void the_endpoint_is_up_and_running_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given("User performs a get request for {string} for id {string}")
+public void user_performs_a_get_request_for_for_id(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User sees the  response with pairs")
+public void user_sees_the_response_with_pairs(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+
+User wants to update first name in his account(Update My account details)  Time elapsed: 0.113 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "User is on homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("User is on homepage")
+public void user_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("User click signin")
+public void user_click_signin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User sees login screen enters username password")
+public void user_sees_login_screen_enters_username_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User click signin button")
+public void user_click_signin_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User lands on myaccount page")
+public void user_lands_on_myaccount_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User clicks on save")
+public void user_clicks_on_save() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

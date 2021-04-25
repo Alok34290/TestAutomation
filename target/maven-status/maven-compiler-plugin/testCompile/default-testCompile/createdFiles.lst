@@ -1,0 +1,7 @@
+com\test\alok\stepdef\TestRunner.class
+com\test\alok\Utils.class
+com\test\alok\stepdef\LoginPage.class
+com\test\alok\stepdef\MyAccountPOM.class
+com\test\alok\stepdef\SignInCheck.class
+com\test\alok\stepdef\GetCallStepDef.class
+com\test\alok\stepdef\MyAccountPage.class
